@@ -10,7 +10,9 @@
 }
 .PlayerContainer {
     width:100% !important;
-    height:100% !important;
+    height: calc((9 / 16) * 100vw) !important;
+    max-height: calc(100vh - 70px) !important;
+    min-height: 480px;
     margin-left: 0px !important;
     margin-top: 0px !important;
 }
@@ -18,12 +20,14 @@
 .PlayerContainer:after, .Player:after, .Player__inner {
     padding-top: 0px !important;
     width: unset;
-    height: calc(100vh - 70px) !important;
+    height: calc((9 / 16) * 100vw) !important;
 }
 .Player__inner {
     padding-bottom: 0px !important;
+    max-height: calc(100vh - 70px) !important;
 }
 
 .Player__video.video-js{
     max-height: calc(100vh - 70px) !important;
+    margin: unset !important;
 }

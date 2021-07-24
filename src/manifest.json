@@ -4,8 +4,6 @@
  "version": "1.0.0",
  "description": "Make the 7+ video player wide and more responsive",
  "short_name": "Make the 7+ video player responsive",
- "permissions": ["activeTab", "declarativeContent"],
- "host_permissions": ["https://7plus.com.au/*"],
  "content_scripts": [
    {
      "matches": ["https://7plus.com.au/*"],
