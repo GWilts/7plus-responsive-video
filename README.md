@@ -8,3 +8,5 @@ How to:
 3. Select the `Load unpacked` button top left.
 4. Select the `src` folder from this repo.
 5. Good to go!
+
+Full extension on the [chrome store](https://chrome.google.com/webstore/detail/7plus-responsive-video/pegahkchckmpafkgnobgcpcbhdcobijp).
